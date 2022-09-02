@@ -18,12 +18,21 @@ namespace Skynetz.Domain.Models
         {
             var tarifa = _tarifaRepository.GetById(id);
             if (tarifa == null)
-            {
                 tarifa = new Tarifa(origem, destino, tarifaMin);
-                _tarifaRepository.Save(tarifa);
-            }
-            //else
-            //    tarifa.Update(nome, email);
+            else
+                tarifa.Update(origem, destino, tarifaMin);
+
+            _tarifaRepository.Save(tarifa);
+        }
+
+        public IEnumerable<Tarifa> GetAll()
+        {
+            return _tarifaRepository.GetAll();
+        }
+
+        public Tarifa GetById(int id)
+        {
+            return _tarifaRepository.GetById(id);
         }
     }
 }

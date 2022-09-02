@@ -1962,6 +1962,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Skynetz.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Skynetz.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Skynetz.Domain.dll": {}
+        }
       }
     }
   },
@@ -6569,11 +6579,17 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Skynetz.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Skynetz.Domain/Skynetz.Domain.csproj",
+      "msbuildProject": "../Skynetz.Domain/Skynetz.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "Skynetz.Domain >= 1.0.0",
       "coverlet.collector >= 1.0.1",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -6604,7 +6620,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GIT\\Skynetz\\src\\Skynetz.Domain\\Skynetz.Domain.csproj": {
+              "projectPath": "C:\\GIT\\Skynetz\\src\\Skynetz.Domain\\Skynetz.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

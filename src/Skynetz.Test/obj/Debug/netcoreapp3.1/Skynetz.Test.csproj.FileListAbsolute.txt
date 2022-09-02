@@ -91,3 +91,6 @@ C:\GIT\Skynetz\src\Skynetz.Test\obj\Debug\netcoreapp3.1\Skynetz.Test.AssemblyInf
 C:\GIT\Skynetz\src\Skynetz.Test\obj\Debug\netcoreapp3.1\Skynetz.Test.csproj.CopyComplete
 C:\GIT\Skynetz\src\Skynetz.Test\obj\Debug\netcoreapp3.1\Skynetz.Test.dll
 C:\GIT\Skynetz\src\Skynetz.Test\obj\Debug\netcoreapp3.1\Skynetz.Test.pdb
+C:\GIT\Skynetz\src\Skynetz.Test\bin\Debug\netcoreapp3.1\Skynetz.Domain.dll
+C:\GIT\Skynetz\src\Skynetz.Test\bin\Debug\netcoreapp3.1\Skynetz.Domain.pdb
+C:\GIT\Skynetz\src\Skynetz.Test\obj\Debug\netcoreapp3.1\Skynetz.Test.csprojAssemblyReference.cache

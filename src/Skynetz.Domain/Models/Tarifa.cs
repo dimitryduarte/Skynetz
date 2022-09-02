@@ -21,6 +21,10 @@ namespace Skynetz.Domain.Models
 
         public decimal TarifaMinuto { get; set; }
 
+        public void Update(string origem, string destino, decimal tarifaMinuto)
+        {
+            ValidarDados(origem, destino, tarifaMinuto);
+        }
         private void ValidarDados(string origem, string destino, decimal tarifaMinuto)
         {
             if (string.IsNullOrEmpty(origem))
@@ -31,6 +35,11 @@ namespace Skynetz.Domain.Models
 
             if(tarifaMinuto <= 0)
                 throw new InvalidOperationException("A tarifa informada deve ser maior ou igual a zero.");
+        }
+
+        public decimal CalcularTarifa(int minutos)
+        {
+            return minutos * TarifaMinuto;
         }
     }
 }

@@ -59,6 +59,27 @@ namespace Skynetz.Infra.Context
                          TarifaMinuto = (decimal)1.90
                      }
              );
+
+            modelBuilder.Entity<Plano>().HasData(
+                                new Plano
+                                {
+                                    Id = 1,
+                                    Nome = "FaleMais 30",
+                                    Minutos = 30
+                                },
+                                new Plano
+                                {
+                                    Id = 2,
+                                    Nome = "FaleMais 60",
+                                    Minutos = 60
+                                },
+                                new Plano
+                                {
+                                    Id = 3,
+                                    Nome = "FaleMais 120",
+                                    Minutos = 120
+                                }
+                        );
         }
     }
 }
