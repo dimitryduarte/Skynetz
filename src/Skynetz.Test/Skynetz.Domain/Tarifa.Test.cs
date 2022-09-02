@@ -4,9 +4,9 @@ using Xunit;
 
 namespace Skynetz.Test
 {
-    public class TarefaTest
+    public class TarifaTest
     {
-        public TarefaTest() { }
+        public TarifaTest() { }
 
         [Theory]
         [InlineData("011","016", 1.90f, 10, 19)]
