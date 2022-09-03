@@ -24,7 +24,8 @@ namespace Skynetz.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            Initializer.Configure(services, Configuration.GetConnectionString("DefaultConnection"));
+            Initializer.Configure(services, Configuration.GetConnectionString("DefaultConnection"));            
+
             services.AddControllersWithViews();
         }
 
@@ -52,7 +53,7 @@ namespace Skynetz.Web
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Simulacao}/{action=Index}/{id?}");
             });
         }
     }

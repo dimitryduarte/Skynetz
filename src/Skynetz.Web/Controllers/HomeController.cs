@@ -11,38 +11,15 @@ using Skynetz.Web.Models;
 
 namespace Skynetz.Web.Controllers
 {
-    public class TarifaController : Controller
+    public class HomeController : Controller
     {
-        private readonly ILogger<TarifaController> _logger;
-        private readonly TarifaService _tarifaService;
-        private readonly IRepository<Tarifa> _tarifaRepository;
-        public TarifaController(TarifaService tarifaService,
-            IRepository<Tarifa> tarifaRepository)
+        public HomeController()
         {
-            _tarifaService = tarifaService;
-            _tarifaRepository = tarifaRepository;
         }
 
         public IActionResult Index()
         {
             return View();
-        }
-
-        [HttpGet]
-        public IEnumerable<Tarifa> GetTarifa()
-        {
-            var tarifas = _tarifaRepository.GetAll();
-            return tarifas;
-        }
-        [HttpGet("{id}")]
-        public ActionResult<Tarifa> GetTarifa(int id)
-        {
-            var tarifa = _tarifaRepository.GetById(id);
-            if (tarifa == null)
-            {
-                return NotFound(new { message = $"Tarifa de id={id} não encontrado" });
-            }
-            return tarifa;
         }
 
         public IActionResult Privacy()

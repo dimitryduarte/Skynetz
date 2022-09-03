@@ -173,4 +173,9 @@ C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tarifas\Delet
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tarifas\Details.cshtml.g.cs
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tarifas\Edit.cshtml.g.cs
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Tarifas\Index.cshtml.g.cs
-C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Index.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Create.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Delete.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Details.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Edit.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Index.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Simulacao\Index.cshtml.g.cs

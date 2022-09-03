@@ -5,4 +5,3 @@ C:\GIT\Skynetz\src\Skynetz.Domain\bin\Debug\netstandard2.0\Skynetz.Domain.dll
 C:\GIT\Skynetz\src\Skynetz.Domain\bin\Debug\netstandard2.0\Skynetz.Domain.pdb
 C:\GIT\Skynetz\src\Skynetz.Domain\obj\Debug\netstandard2.0\Skynetz.Domain.dll
 C:\GIT\Skynetz\src\Skynetz.Domain\obj\Debug\netstandard2.0\Skynetz.Domain.pdb
-C:\GIT\Skynetz\src\Skynetz.Domain\obj\Debug\netstandard2.0\Skynetz.Domain.csprojAssemblyReference.cache

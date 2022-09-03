@@ -28,5 +28,10 @@ namespace Skynetz.Infra.Repositories
 
             return query.Any() ? query.ToList() : new List<Plano>();
         }
+
+        public Plano GetByNome(string nome)
+        {
+            return _context.Set<Plano>().Where(x => x.Nome.Contains(nome)).FirstOrDefault();
+        }
     }
 }

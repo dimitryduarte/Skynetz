@@ -15,9 +15,14 @@ namespace Skynetz.Application.DI
         public static void Configure(IServiceCollection services, string conection)
         {
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conection));
-            services.AddScoped(typeof(IRepository<Tarifa>), typeof(TarifaRepository));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+            services.AddScoped(typeof(IRepository<Tarifa>), typeof(TarifaRepository));
             services.AddScoped(typeof(TarifaService));
+
+            services.AddScoped(typeof(IRepository<Plano>), typeof(PlanoRepository));
+            services.AddScoped(typeof(PlanoService));
+
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }

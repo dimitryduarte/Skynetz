@@ -18,6 +18,44 @@ namespace Skynetz.Infra.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Skynetz.Domain.Models.Plano", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("Minutos")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Planos");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Minutos = 30,
+                            Nome = "FaleMais 30"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Minutos = 60,
+                            Nome = "FaleMais 60"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Minutos = 120,
+                            Nome = "FaleMais 120"
+                        });
+                });
+
             modelBuilder.Entity("Skynetz.Domain.Models.Tarifa", b =>
                 {
                     b.Property<int>("Id")
