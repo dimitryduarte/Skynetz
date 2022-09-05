@@ -6300,8 +6300,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\GIT\\Skynetz\\src\\Skynetz.domain\\Skynetz.domain.csproj": {
-              "projectPath": "C:\\GIT\\Skynetz\\src\\Skynetz.domain\\Skynetz.domain.csproj"
+            "C:\\GIT\\Skynetz\\src\\Skynetz.Domain\\Skynetz.Domain.csproj": {
+              "projectPath": "C:\\GIT\\Skynetz\\src\\Skynetz.Domain\\Skynetz.Domain.csproj"
             }
           }
         }

@@ -1,12 +1,11 @@
 version: '3.4'
-
 services:
   skynetz.web:
-    image: ${DOCKER_REGISTRY-}skynetzweb
+    image: ${DOCKER_REGISTRY-}skynetz
     build:
       context: .
       dockerfile: src/Skynetz.Web/Dockerfile
-   ports:
+    ports:
       - "8081:80"
     depends_on:
       - sqldata

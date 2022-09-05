@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A699E42-7532-4D5A-995B-98B6AB76B724}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Domain", "src\Skynetz.Domain\Skynetz.Domain.csproj", "{F0694541-18F5-4683-8CF1-F6F0F1E25C32}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Application", "src\Skynetz.Application\Skynetz.Application.csproj", "{16127462-5D5B-4D1E-90B1-6BE90EE62C58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Infra", "src\Skynetz.Infra\Skynetz.Infra.csproj", "{38942EDD-9EBB-4CC3-BEF8-5A8202001535}"
@@ -15,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Web", "src\Skynetz.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Test", "src\Skynetz.Test\Skynetz.Test.csproj", "{E4C7BE0D-7297-447B-96AC-0DB4287FC593}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A016F203-CCAA-42BF-9586-2E41544753BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skynetz.Domain", "src\Skynetz.Domain\Skynetz.Domain.csproj", "{F0694541-18F5-4683-8CF1-F6F0F1E25C32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

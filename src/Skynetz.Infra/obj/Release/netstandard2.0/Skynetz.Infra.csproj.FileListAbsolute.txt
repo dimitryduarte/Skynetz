@@ -1,0 +1,9 @@
+C:\app\build\Skynetz.Infra.deps.json
+C:\app\build\Skynetz.Infra.dll
+C:\app\build\Skynetz.Infra.pdb
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.csprojAssemblyReference.cache
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.AssemblyInfoInputs.cache
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.AssemblyInfo.cs
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.csproj.CopyComplete
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.dll
+C:\GIT\Skynetz\src\Skynetz.Infra\obj\Release\netstandard2.0\Skynetz.Infra.pdb

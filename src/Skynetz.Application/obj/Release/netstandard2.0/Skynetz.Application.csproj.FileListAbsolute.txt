@@ -1,0 +1,9 @@
+C:\app\build\Skynetz.Application.deps.json
+C:\app\build\Skynetz.Application.dll
+C:\app\build\Skynetz.Application.pdb
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.csprojAssemblyReference.cache
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.AssemblyInfoInputs.cache
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.AssemblyInfo.cs
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.csproj.CopyComplete
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.dll
+C:\GIT\Skynetz\src\Skynetz.Application\obj\Release\netstandard2.0\Skynetz.Application.pdb

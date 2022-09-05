@@ -178,3 +178,4 @@ C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Detail
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Edit.cshtml.g.cs
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Planos\Index.cshtml.g.cs
 C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Razor\Views\Simulacao\Index.cshtml.g.cs
+C:\GIT\Skynetz\src\Skynetz.Web\obj\Debug\netcoreapp3.1\Skynetz.Web.MvcApplicationPartsAssemblyInfo.cache
