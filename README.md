@@ -28,13 +28,15 @@ Algumas considerações importantes:
 É possível iniciar esse projeto via docker, ou de forma manual (debug).
 
 INICIAR VIA DOCKER
+-------------
 Para iniciar subir o projeto via docker, do diretório do arquivo ```docker-compose.yml``` o comando:
 ```
 docker-compose up --build -o
 ```
 O comando build é importante para rodar as migrations.
-INICIAR COMO DEBUG
 
+INICIAR COMO DEBUG
+--------------
 Para inicializar o projeto pelo Visual Studio, pode ser utilizada uma instância de docker já configurada para banco de dados executando o comando a seguir:
 ```
 docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password#2022" -p 1450:1433 --name sqlserverdb -d mcr.microsoft.com/mssql/server
