@@ -29,7 +29,7 @@ Algumas considerações importantes:
 
 INICIAR VIA DOCKER
 -------------
-Para iniciar subir o projeto via docker, do diretório do arquivo ```docker-compose.yml``` o comando:
+Para iniciar subir o projeto via docker, do diretório do arquivo ```docker-compose.yml```  execute o comando:
 ```
 docker-compose up --build -o
 ```
